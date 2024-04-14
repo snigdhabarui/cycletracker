@@ -49,7 +49,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #d1499c; 
+  background-color: #d1499c; }
 
 #past-periods {
   margin: 20px auto;
