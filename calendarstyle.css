@@ -1,10 +1,9 @@
-
-
 body {
   display: flex;
   margin-top: 50px;
   justify-content: center;
-  background-color: #f9e6e6; 
+  background-color: #f9e6e6; /* Changed background color */
+}
 
 button {
   width: 75px;
@@ -19,7 +18,7 @@ button {
 
 #header {
   padding: 10px;
-  color: #ff69b4; 
+  color: #ff69b4; /* Changed text color */
   font-size: 26px;
   font-family: sans-serif;
   display: flex;
@@ -27,7 +26,8 @@ button {
 }
 
 #header button {
-  background-color: #ff69b4; 
+  background-color: #ff69b4; /* Changed button background color */
+}
 
 #container {
   width: 770px;
@@ -36,7 +36,8 @@ button {
 #weekdays {
   width: 100%;
   display: flex;
-  color: #ff69b4; 
+  color: #247BA0;
+}
 
 #weekdays div {
   width: 100px;
@@ -58,24 +59,24 @@ button {
   box-sizing: border-box;
   background-color: white;
   margin: 5px;
-  box-shadow: 0px 0px 3px #ff69b4; 
+  box-shadow: 0px 0px 3px #CBD4C2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .day:hover {
-  background-color: #e8faed; 
+  background-color: #e8faed;
 }
 
 .day + #currentDay {
-  background-color: #e8f4fa; 
+  background-color: #e8f4fa;
 }
 
 .event {
   font-size: 10px;
   padding: 3px;
-  background-color: #ff69b4; 
+  background-color: #58bae4;
   color: white;
   border-radius: 5px;
   max-height: 55px;
@@ -84,7 +85,7 @@ button {
 
 .padding {
   cursor: default !important;
-  background-color: #f9e6e6 !important; 
+  background-color: #f9e6e6 !important; /* Changed background color */
   box-shadow: none !important;
 }
 
@@ -93,7 +94,7 @@ button {
   display: none;
   z-index: 20;
   padding: 25px;
-  background-color: #e8f4fa; 
+  background-color: #e8f4fa;
   box-shadow: 0px 0px 3px black;
   border-radius: 5px;
   width: 350px;
@@ -120,12 +121,12 @@ button {
 
 #cancelButton,
 #deleteButton {
-  background-color: #ff69b4;
+  background-color: #d36c6c;
 }
 
 #saveButton,
 #closeButton {
-  background-color: #92a1d1; 
+  background-color: #92a1d1;
 }
 
 #eventText {
